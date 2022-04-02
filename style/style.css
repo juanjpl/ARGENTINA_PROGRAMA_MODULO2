@@ -1,0 +1,363 @@
+/*General*/
+
+*{
+    margin:0 ;
+    padding:0;
+}
+
+.text-white{
+    color:white;
+}
+
+.text-brown{
+    color: #b08364;
+}
+.text-head1{
+    font-size: 2rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+/* cabecera */
+
+
+
+.cabecera {
+    background-image: url(/img/hero_home_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 700px;
+    justify-content: space-between;
+}
+
+.cabecera img{
+    width: 10rem;
+    height: 5rem;
+}
+
+.barra-navegacion-superior{
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.options-links>li{
+margin:0rem 2rem;
+}
+.barra-navegacion-superior>div>ul>li{
+    list-style: none;
+   
+}
+
+.barra-navegacion-superior>div>ul>li>a{
+   color:white;
+    text-decoration: none;
+}
+
+.heading{
+    height: 80%;
+    justify-content: center;
+  
+}
+.heading>a{
+    width: 10rem;
+    color:white;
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: 2px solid white ;
+    margin:0 auto;
+    
+
+}
+.heading>h2{
+    margin-bottom: 6rem;
+}
+
+/*PRODUCTOS*/
+
+.productos {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.productos>article{
+    width: 22%;
+}
+
+.productos>article>p{
+   
+    margin: 0 auto;
+    width: 75%;
+}
+
+.productos img{
+    margin-bottom: 2.5rem;
+}
+
+.productos>article>h2{
+    margin-bottom: 1rem;
+}
+
+/*section advice*/
+
+.advice{
+    background-image: url(/img/home_04_inner_01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    justify-content: center;
+    margin:4rem 0;
+}
+
+
+/*SHOP PRODUCTS*/
+
+.shop-products{
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+}
+.shop-products>article{
+  
+width: 28%;
+height:max-content;
+margin:2rem 0rem;
+
+
+}
+
+.shop-products>article>img{
+    width: 80%;
+    height: 90%;
+    display:block;
+    margin:auto;
+}
+
+
+.shop-products>article>table{
+    
+    border: none;
+    border-collapse:collapse;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+.shop-products>article>table th{
+    border:2px solid burlywood;
+   padding:1rem 6rem;
+    
+}
+
+
+.shop-products>article>table td{
+    border:2px solid burlywood;
+    padding:1rem 2rem;
+   
+}
+.shop-products>article>table>tbody>tr>td>li{
+  
+   text-align: center;
+   list-style: none;
+   text-decoration: none;
+  
+}
+
+.shop-products>article>table>tbody>tr>td>li>a{
+  
+    color:black;
+    text-decoration: none;
+   
+ }
+
+
+ /*PROUD PRODUCTS*/
+
+ .proud-product{
+     background-color: rgb(13, 13, 39);
+     flex-wrap: wrap;
+     width: 100%;
+     justify-content: center;
+     padding:4rem 0rem ;
+     margin-top: 5rem;
+    
+ }
+
+ .proud-product article{
+     width:45vw;
+     justify-content: center;
+     align-items: flex-end;
+   
+ }
+
+ .proud-product>article h3{
+     margin-bottom: 4rem;
+ }
+
+ .proud-product>article>li{
+     list-style: none;
+     width: 10rem;
+     border: 2px solid white ;
+     padding: 1rem 2rem;
+     text-align: center;
+ }
+
+ .proud-product>article>li>a{
+   
+    color:white;
+    list-style: none;
+    text-decoration: none;
+    margin:0 auto;
+ 
+   
+}
+
+ .proud-product img{
+     padding:1rem ;
+ }
+
+ .img50{
+     width:43vw;
+ }
+
+ .img25{
+     width:20vw;
+ }
+
+ /*PROUD PRODUCTS*/
+
+ .ingredient{
+     align-items: center;
+     
+ }
+ .ingredient>article{
+     align-items: center;
+     width:80%;
+     justify-content: space-around;
+ }
+ .ingredient>article .ingredient-text{
+     width: 36vw;
+     height: 30vw;
+     background-color: rgb(241, 241, 241);
+     justify-content: center;
+     text-align: center;
+ }
+
+ .ingredient>article>div>li {
+    list-style: none;
+    width: 10rem;
+    border: 2px solid white ;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin:0 auto;
+ }
+
+
+.ingredient>article>div>li>a{
+   color:white;
+   text-decoration: none;
+  
+}
+
+.ingredient>article>div>p{
+   margin-bottom: 4rem;
+   
+ }
+
+
+ /*PROUD PRODUCTS*/
+
+ .about {
+     height: 700px;
+     background-color: rgb(13, 13, 39);
+     margin:5rem 0;
+ }
+
+ .about>article {
+     width: 50%;
+     padding:6rem;
+
+ }
+
+ .about>article>p{
+     margin-bottom: 4rem;
+ }
+ .about>article>li {
+    list-style: none;
+    width: 10rem;
+    border: 2px solid white ;
+    padding: 1rem 2rem;
+    text-align: center;
+    
+ }
+
+
+.about>article>li>a{
+   color:white;
+   text-decoration: none;
+  
+}
+
+/*FOOTER PRODUCTS*/
+
+footer{
+    background-image: url(/img/home_04_inner_01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    justify-content: center;
+
+    align-items: center;
+   
+}
+
+footer>article{
+    width: 25%;
+    padding:2rem;
+    text-align: center;
+    
+}
+
+footer>article>img{
+    margin-bottom: 3rem;
+}
+
+footer>article>nav>ul>li {
+    list-style: none;
+    width: 10rem;
+    padding: 0.8rem 2rem;
+    text-align: center;
+    
+ }
+
+
+footer>article>nav>ul>li>a{
+    color: #b08364;
+   text-decoration: none;
+  
+}
+
+footer>article>i{
+    font-size: 2rem;
+    padding:0rem 1rem;
+}
